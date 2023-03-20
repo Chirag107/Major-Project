@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oil_aboutus_final"
+    tools:context=".about_us">
+
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="338dp"
+        android:layout_height="754dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="69dp"
+        android:alpha="0.4"
+
+        android:background="@drawable/title_about_us"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="313dp"
+        android:layout_height="161dp"
+        android:padding="5dp"
+        android:shadowColor="#6CCF27"
+        android:shadowDx="1.0"
+        android:shadowDy="0.0"
+        android:shadowRadius="20"
+        android:text="Veda's Amrutvrushti Private Limited -"
+        android:textColor="#000000"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView16"
+        app:layout_constraintEnd_toEndOf="@+id/imageView16"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="@+id/imageView16"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="310dp"
+        android:layout_height="549dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="12dp"
+        android:padding="5dp"
+        android:shadowColor="#6CCF27"
+        android:shadowDx="1.0"
+        android:shadowDy="0.0"
+        android:shadowRadius="10"
+        android:text="We are a small-medium scale cold pressed oil company, we provide various types of cold pressed oils and cashews\n
+        \nWhy cold pressed?, the normal refined oils has bad cholesterol, and inturn reduces heart functionality.\n
+        While cold pressed oils have good cholesterol and reduces the bad cholesterol in the body and increases heart functionality.\n
+        \nOur products are reliable, taste the same as any oil, but about three times healthier than the one which u can be currently using.
+        \n\nFor more information about the benefits of cold pressed oils, please refer to the website."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView16"
+        app:layout_constraintEnd_toEndOf="@+id/imageView16"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textViewlink"
+        android:layout_width="307dp"
+        android:layout_height="41dp"
+        android:text="@string/hyperlink"
+        android:textAlignment="center"
+        android:textSize="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.639"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView16"
+        app:layout_constraintVertical_bias="0.94" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
