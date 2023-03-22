@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "997638744472",
+    "project_id": "gotya-cha-project",
+    "storage_bucket": "gotya-cha-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997638744472:android:7255f958ed50a12246e3ed",
+        "android_client_info": {
+          "package_name": "com.example.project48"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997638744472-hm6tbmjkmgkbnq812ouhrqbupenegbof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMX-19yl0rcv-nyctrqUkCAS9F5q6Z0gY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997638744472-hm6tbmjkmgkbnq812ouhrqbupenegbof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

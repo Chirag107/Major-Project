@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">project48</string>
+    <string name="hyperlink"><a href="https://pristineorganics.com/benefits-of-cold-pressed-oils/#:~:text=Cold%2Dpressed%20oils%20have%20high,pressed%20oils%20also%20contain%20bioflavonoids.">Benefits of cold pressed oils</a></string>
+    <string name="signup">SignUp</string>
+    <string name="login">Login</string>
+    <string name="enter_password">enter_Password</string>
+    <string name="signup2">-SignUp-</string>
+</resources>
