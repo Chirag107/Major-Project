@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cardview_background_final"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="401dp"
+            android:layout_height="2195dp"
+
+            android:alpha="0.4"
+            android:background="@drawable/title_about_us"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView1"
+            android:layout_width="312dp"
+            android:layout_height="284dp"
+            android:layout_gravity="top"
+            android:elevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.632">
+
+            <TextView
+                android:id="@+id/productname1"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:shadowColor="#86D14F"
+                android:shadowDx="1.0"
+                android:shadowDy="1.0"
+                android:shadowRadius="10"
+                android:text="Coconut Oil( 1 Litre )"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:layout_width="258dp"
+                android:layout_height="174dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/white_banner_background" />
+
+            <ImageButton
+                android:id="@+id/cocobtn"
+                android:onClick="coconut"
+                android:layout_width="199dp"
+                android:layout_height="138dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/coconut_oil"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textviewcoconut"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:padding="5dp"
+                android:shadowColor="#86D14F"
+                android:shadowDx="1.0"
+                android:shadowDy="1.0"
+                android:shadowRadius="10"
+                android:text="Price = 1000Rs"
+                android:textSize="18dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="312dp"
+            android:layout_height="284dp"
+            android:layout_gravity="top"
+            android:elevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView1"
+            app:layout_constraintVertical_bias="0.783">
+
+            <ImageView
+                android:layout_width="263dp"
+                android:layout_height="174dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/white_banner_background" />
+
+            <ImageButton
+                android:id="@+id/almondbtn"
+                android:onClick="slider"
+                android:layout_width="199dp"
+                android:layout_height="138dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/almond_oil"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:padding="5dp"
+                android:shadowColor="#86D14F"
+                android:shadowDx="1.0"
+                android:shadowDy="1.0"
+                android:shadowRadius="10"
+                android:text="Price = 1500Rs"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/productname2"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:shadowColor="#86D14F"
+                android:shadowDx="1.0"
+                android:shadowDy="1.0"
+                android:shadowRadius="10"
+                android:text="Almond Oil( 1 Litre )"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView3"
+            android:layout_width="312dp"
+            android:layout_height="284dp"
+            android:layout_gravity="top"
+            android:elevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView16"
+            app:layout_constraintHorizontal_bias="0.393"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView16"
+            app:layout_constraintVertical_bias="0.438">
+
+            <ImageView
+                android:layout_width="284dp"
+                android:layout_height="174dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/white_banner_background" />
+
+            <ImageButton
+                android:id="@+id/seasmebtn"
+                android:onClick="seasmeslide"
+                android:layout_width="199dp"
+                android:layout_height="138dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/sesame_oil"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+
+                android:id="@+id/productname3"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:shadowColor="#86D14F"
+                android:shadowDx="1.0"
+                android:shadowDy="1.0"
+                android:shadowRadius="10"
+                android:text="Sesame Oil( 1 Litre )"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:padding="5dp"
+                android:shadowColor="#86D14F"
+                android:shadowDx="1.0"
+                android:shadowDy="1.0"
+                android:shadowRadius="10"
+                android:text="Price = 1200Rs"
+                android:textSize="18dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView5"
+            android:layout_width="312dp"
+            android:layout_height="284dp"
+            android:layout_gravity="top"
+            android:elevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.251">
+
+            <TextView
+                android:id="@+id/productname5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:shadowColor="#86D14F"
+                android:shadowDx="1.0"
+                android:shadowDy="1.0"
+                android:shadowRadius="10"
+                android:text="Nigerseed Oil( 1 Litre )"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:layout_width="258dp"
+                android:layout_height="174dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/white_banner_background" />
+
+            <ImageButton
+                android:id="@+id/nigerseedbtn"
+                android:onClick="nigerr"
+                android:layout_width="199dp"
+                android:layout_height="138dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/nigerseedfinal"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:padding="5dp"
+                android:shadowColor="#86D14F"
+                android:shadowDx="1.0"
+                android:shadowDy="1.0"
+                android:shadowRadius="10"
+                android:text="Price = 1000Rs"
+                android:textSize="18dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="358dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:shadowColor="#000000"
+            android:shadowDx="8.0"
+            android:shadowDy="8.0"
+            android:shadowRadius="20"
+            android:text="--Complete Array of Products--"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/cardView1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.485"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.15" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView4"
+            android:layout_width="312dp"
+            android:layout_height="284dp"
+            android:layout_gravity="top"
+            android:elevation="5dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView16"
+            app:layout_constraintEnd_toEndOf="@+id/imageView16"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="@+id/imageView16"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.633">
+
+            <TextView
+                android:id="@+id/productname4"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:shadowColor="#86D14F"
+                android:shadowDx="1.0"
+                android:shadowDy="1.0"
+                android:shadowRadius="10"
+                android:text="Safflower Oil( 1 Litre )"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:layout_width="270dp"
+                android:layout_height="174dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/white_banner_background" />
+
+            <ImageButton
+                android:id="@+id/safflowerbtn"
+                android:onClick="saffslide"
+                android:layout_width="191dp"
+                android:layout_height="138dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/safflower_oil"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:padding="5dp"
+                android:shadowColor="#86D14F"
+                android:shadowDx="1.0"
+                android:shadowDy="1.0"
+                android:shadowRadius="10"
+                android:text="Price = 1100Rs"
+                android:textSize="18dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

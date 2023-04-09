@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".almondoil">
+
+    <TextView
+        android:id="@+id/almondcart"
+        android:layout_width="375dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="533dp"
+        android:text="Name= Wood Pressed Almond Oil"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <EditText
+        android:id="@+id/edittextcartalmd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="186dp"
+        android:layout_marginBottom="491dp"
+        android:ems="10"
+        android:hint="Enter Quantity"
+        android:inputType="number"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/almondcart"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/almdcartbutton"
+        android:layout_width="303dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="284dp"
+        android:text="Confirm Cart"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edittextcartalmd" />
+</androidx.constraintlayout.widget.ConstraintLayout>
